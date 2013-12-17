@@ -8,23 +8,17 @@ This linter plugin for [SublimeLinter](https://github.com/SublimeLinter/SublimeL
 ### Linter installation
 Before installing this plugin, you must ensure that `cppcheck` is installed on your system. To install `cppcheck`, do the following:
 
-1. Install Other.
-
 1. Install `cppcheck` by typing the following in a terminal:
    ```
    <package manager> install cppcheck
    ```
 
+   or get it from its [homepage](http://cppcheck.sourceforge.net/).
+
 Now you can proceed to install the SublimeLinter-cppcheck plugin.
 
 ### Plugin installation
-Please use [Package Control](https://sublime.wbond.net/installation) to install the linter plugin. This will ensure that the plugin will be updated when new versions are available. If you want to install from source so you can modify the source code, you probably know what you are doing so we won’t cover that here.
-
-To install via Package Control, do the following:
-
-1. Within Sublime Text, bring up the [Command Palette](http://docs.sublimetext.info/en/sublime-text-3/extensibility/command_palette.html) and type `install`. Among the commands you should see `Package Control: Install Package`. If that command is not highlighted, use the keyboard or mouse to select it. There will be a pause of a few seconds while Package Control fetches the list of available plugins.
-
-1. When the plugin list appears, type `cppcheck`. Among the entries you should see `SublimeLinter-cppcheck`. If that entry is not highlighted, use the keyboard or mouse to select it.
+This plugin isn't available in the commonly used [Package Control](https://sublime.wbond.net/installation) and therefore needs to be installed manually from the source.
 
 ## Settings
 For general information on how SublimeLinter works with settings, please see [Settings](https://github.com/SublimeLinter/SublimeLinter.github.io/wiki/Settings). For information on generic linter settings, please see [Linter Settings](https://github.com/SublimeLinter/SublimeLinter.github.io/wiki/Linter-Settings).
